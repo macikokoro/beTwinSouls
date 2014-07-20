@@ -15,10 +15,8 @@
 			} else {
 				echo '<p>Something went wrong, go back and try again!<p>';
 			}
-			
 			} else {
 				echo '<p>You need to fill in all required fields</p>';
-		
 		}
     
 	}
@@ -84,20 +82,20 @@
 
 	</div>
 
-    <form method="post" action="index.php">
+      <form method="post" action="index.php">
+        
+        <ul>
+        	<li>
+          	<label for="email">Sign up for our mailing list!</label>
+            <input name="email" type="email" placeholder="Give us your email!"/>
+          </li>
+         
+         	<li>
+          	<input name="submit" type="submit" id="button" value="submit"/>
+          </li>
+         </ul>
       
-      <ul>
-      	<li>
-        	<label for="email">Sign up for our mailing list!</label>
-          <input name="email" type="email" placeholder="Give us your email!"/>
-        </li>
-       
-       	<li>
-        	<input name="submit" type="submit" id="button" value="submit"/>
-        </li>
-       </ul>
-    
-    </form>
+      </form>
     
   	<article>
       <h2>News</h2>
